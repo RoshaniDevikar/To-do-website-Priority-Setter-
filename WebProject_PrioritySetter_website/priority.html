@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Font Awesome cdn css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>Priority Setter</title>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+	
+    <div class="conatainer">
+		<div class="bubble">
+
+			<span style="--i:11;"></span>
+			<span style="--i:12;"></span>
+			<span style="--i:24;"></span>
+			<span style="--i:10;"></span>
+			<span style="--i:14;"></span>
+			<span style="--i:23;"></span>
+			<span style="--i:18;"></span>
+			<span style="--i:16;"></span>
+			<span style="--i:19;"></span>
+			<span style="--i:20;"></span>
+			<span style="--i:22;"></span>
+			<span style="--i:25;"></span>
+			<span style="--i:18;"></span>
+			<span style="--i:21;"></span>
+			<span style="--i:15;"></span>
+			<span style="--i:13;"></span>
+			<span style="--i:26;"></span>
+			<span style="--i:17;"></span>
+			<span style="--i:13;"></span>
+			<span style="--i:28;"></span>
+			<span style="--i:22;"></span>
+			<span style="--i:17;"></span>
+			<span style="--i:13;"></span>
+			<span style="--i:28;"></span>
+			<span style="--i:26;"></span>
+			<span style="--i:25;"></span>
+
+
+			<span style="--i:11;"></span>
+			<span style="--i:12;"></span>
+			<span style="--i:24;"></span>
+			<span style="--i:10;"></span>
+			<span style="--i:14;"></span>
+			<span style="--i:23;"></span>
+			<span style="--i:18;"></span>
+			<span style="--i:16;"></span>
+			<span style="--i:19;"></span>
+			<span style="--i:20;"></span>
+			<span style="--i:22;"></span>
+			<span style="--i:25;"></span>
+			<span style="--i:18;"></span>
+			<span style="--i:21;"></span>
+			<span style="--i:15;"></span>
+			<span style="--i:13;"></span>
+			<span style="--i:26;"></span>
+			<span style="--i:17;"></span>
+			<span style="--i:13;"></span>
+			<span style="--i:28;"></span>
+			<span style="--i:22;"></span>
+			<span style="--i:17;"></span>
+			<span style="--i:13;"></span>
+			<span style="--i:28;"></span>
+			<span style="--i:26;"></span>
+			<span style="--i:25;"></span>
+		</div>
+	</div>
+
+    <header data-aos="fade-left">
+        <h1 id="heading" > <span>P</span>rioritY<span> S</span>etter</h1>
+    </header>
+    <form action=""  data-aos="zoom-in">
+        <input type="text" class="todo-input" placeholder="Enter your list">
+        <button class="todo-button" type="submit">
+            <i class="fas fa-plus-circle fa-lg"></i>
+        </button>
+        <div class="select">
+            <select name="todos" class="filter-todo" >
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="incomplete">Incomplete</option>
+            </select>
+        </div>
+    </form>
+
+    <div class="todo-container" data-aos="zoom-in">
+        <ul class="todo-list"></ul>
+    </div>
+
+    <script src="./script.js"></script> 
+	<!-- aos data  -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+	  AOS.init({
+		duration:400
+	  });
+
+	</script>
+    
+</body>
+</html>
